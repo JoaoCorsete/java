@@ -1,6 +1,10 @@
 alert("vamos testar a sua sorte");
 let satoroGojo =  21;
-let resposta = prompt("escolha um número de 1 a 100")
+let resposta;
+
+while (resposta != satoroGojo){
+    chute = prompt("escolha um número de 1 a 100")
+
 if(resposta== satoroGojo){
     console.log(`Para Bens ${resposta}`)
 }
@@ -11,4 +15,5 @@ else{
    else {
        alert(`o numero é menor que ${resposta}`)
    }
+}
 }
