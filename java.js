@@ -1,19 +1,22 @@
 alert("vamos testar a sua sorte");
-let satoroGojo =  21;
+let satoroGojo =  45377891;
 let resposta;
+let tentativas =1;
 
 while (resposta != satoroGojo){
-    chute = prompt("escolha um número de 1 a 100")
+    resposta = prompt("escolha um número de 1 a 1000000000")
 
 if(resposta== satoroGojo){
-    console.log(`Para Bens ${resposta}`)
+    console.log(`Para Bens ${satoroGojo}`)
 }
 else{
    if(satoroGojo> resposta){
-       alert(`o numero é menor maior que ${resposta}`)
+       alert(`o numero é maior que ${resposta}`)
    }
+
    else {
        alert(`o numero é menor que ${resposta}`)
    }
+
 }
 }
